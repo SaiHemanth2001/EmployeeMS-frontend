@@ -1,5 +1,61 @@
 .App {
   text-align: center;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  background-image: linear-gradient(79deg,#7439db,#C66FBC 48%,#F7944D);
+}
+
+.Auth-form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.Auth-form {
+  width: 420px;
+  box-shadow: rgb(0 0 0 / 16%) 1px 1px 10px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  border-radius: 8px;
+  background-color: white;
+}
+
+.Auth-form-content {
+  padding-left: 12%;
+  padding-right: 12%;
+}
+
+.Auth-form-title {
+  text-align: center;
+  margin-bottom: 1em;
+  font-size: 24px;
+  color: rgb(34, 34, 34);
+  font-weight: 800;
+}
+
+label {
+  font-size: 14px;
+  font-weight: 600;
+  color: rgb(34, 34, 34);
+}
+
+.left{
+  margin-left: 90%;
+}
+
+.right{
+  min-height: 100vh;
+}
+.center{
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .App-logo {
@@ -35,4 +91,36 @@
   to {
     transform: rotate(360deg);
   }
+}
+body{
+  background-image: linear-gradient(79deg,#7439db,#C66FBC 48%,#F7944D);
+}
+.form{
+  background-color: white;
+  border-radius: 5px;
+  width: 550px;
+  margin: 20px auto;
+  padding: 20px;
+  /* height: 600px; */
+}
+
+.form-body{
+  text-align: left;
+  padding: 20px 10px;
+}
+
+.form-body > *{
+  padding: 5px;
+}
+
+.form__label{
+  width: 40%;
+}
+
+.form_input{
+  width: 60%;
+}
+
+.footer{
+  text-align: center;
 }
